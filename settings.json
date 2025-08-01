@@ -1,0 +1,50 @@
+{
+    "window.commandCenter": false,
+    "workbench.layoutControl.enabled": false,
+    "chat.commandCenter.enabled": false,
+    "telemetry.editStats.enabled": false,
+    "telemetry.feedback.enabled": false,
+    "telemetry.telemetryLevel": "off",
+    "workbench.startupEditor": "none",
+    "workbench.iconTheme": "symbols",
+    "editor.fontFamily": "'JetBrains Mono' ,Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontSize":  14,
+    "editor.fontLigatures":  true,
+    "editor.wordWrap":  "on",
+    "editor.formatOnPaste":  true,
+    "editor.cursorBlinking":  "smooth",
+    "editor.minimap.autohide": true,
+    "workbench.activityBar.location": "hidden",
+    "workbench.sideBar.location": "right",
+    "workbench.tree.enableStickyScroll": false,
+    "workbench.editor.customLabels.enabled": false,
+    "breadcrumbs.enabled": false,
+    "workbench.settings.applyToAllProfiles": [],
+    "explorer.compactFolders": false,
+    "explorer.decorations.badges": false,
+    "window.zoomLevel": 1,
+    "symbols.hidesExplorerArrows": true,
+    "python.venvPath": "~/venvs",
+    "[python]": {
+        "editor.defaultFormatter": "charliermarsh.ruff",
+        "editor.formatOnType": true,
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            // "source.fixAll": "explicit",
+            "source.organizeImports.ruff": "explicit"
+        }
+    },
+    "python.analysis.inlayHints.variableTypes": true,
+    "python.analysis.inlayHints.functionReturnTypes": true,
+    "python.analysis.typeCheckingMode": "off",
+    "python.analysis.ignore": [
+        "*"
+    ],
+    "workbench.editor.showTabs": "single",
+    "editor.scrollbar.vertical": "hidden",
+    "editor.stickyScroll.scrollWithEditor": false,
+    "workbench.colorTheme": "Hack The Box",
+    "chat.agent.enabled": false,
+    "chat.notifyWindowOnConfirmation": false,
+    "terminal.integrated.fontFamily": "'JetBrainsMono NF'"
+}
